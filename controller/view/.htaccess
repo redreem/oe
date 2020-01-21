@@ -1,0 +1,7 @@
+Order Deny,Allow
+Deny from all
+
+Options All -Indexes
+php_value allow_url_fopen 0
+
+RewriteEngine Off

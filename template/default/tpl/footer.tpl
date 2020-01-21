@@ -1,0 +1,1 @@
+<span id="developer">сделано в <a target="_blank" href="http://websyndicate.ru/">веб синдикате</a></span>

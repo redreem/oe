@@ -1,0 +1,1 @@
+<div class="container_small">страница без контроллера</div>

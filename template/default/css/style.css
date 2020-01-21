@@ -1,0 +1,55 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, td 
+{margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent} body {line-height: 1} ol, ul {list-style: none} blockquote, q {quotes: none} blockquote:before, blockquote:after, q:before, q:after {content: '';content: none}
+:focus {outline: 0} ins {text-decoration: none}del {text-decoration: line-through} img {border:0;outline:0}
+
+html, body {position:relative;display:block;background:#222;width:100%;padding:0;margin:0;color:#444}
+
+#main_wrap {position:relative;display:block;width:1000px;margin:20px auto;z-index:20}
+#menu_wrap {position:relative;display:block;background:#82bed6;padding:12px}
+#menu_wrap .but {float:right;}
+#content_wrap {position:relative;display:block;background:#ddd;padding:12px;margin:4px 0}
+#footer_wrap {position:relative;display:block;background:#82bed6;padding:12px}
+
+.but, a.but {
+  text-decoration:none;
+  position:relative;
+  text-shadow: 0px 1px 0px #333;
+  margin:0 0 0 4px;
+  padding:2px 18px;
+  line-height:22px;
+  background-color:#476C89;
+  color:#eee;
+  display:inline-block;
+  font-size:14px;
+  cursor:pointer;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  border-radius:6px;
+  border:1px solid #CCCCCC;
+  -moz-box-shadow: #222 0px 1px 3px;
+  -webkit-box-shadow: #222 0px 1px 3px;
+  box-shadow: #222 0px 1px 3px;
+
+}
+.but:hover {background-color:#396C95;color:#fff;border:1px solid #000}
+.but > a {color:#eee;text-decoration:none}
+.but > a:hover {color:#fff}
+.but_active {background-color:#2f81c1 !important;}
+
+
+.clear {position:relative;width:100%;height:1px;clear:both;font-size:0;overflow:hidden}
+
+#developer {position:relative;display:block;text-align:right;font-size:12.8px;line-height:12px;color:#476C89}
+
+input[type="text"] {position:relative;display:block;width:100%;margin:0;border:1px solid #888;font-size:14px;line-height:28px;height:28px;padding:0 4px}
+#loginForm {position:relative;display:block;width:300px;margin:20px auto;border:1px solid #888;background:#eee;padding:12px}
+#loginForm .but {display:block;margin:0 auto;text-align:center}
+
+.container {position:relative;display:block;margin:20px auto;border:1px solid #888;background:#bbb;padding:12px;z-index:20}
+.container_small {position:relative;display:block;width:50%;margin:20px auto;border:1px solid #888;background:#bbb;padding:12px}
+
+/* ---- console style ---- */
+.console {cursor:pointer;position:absolute;display:block;top:20px;margin:0;width:35%;background-color:#111;height:auto;border:1px solid #fff;z-index:20000;opacity:0.9;filter:alpha(opacity=90);color:#fff;padding:4px 4px;font-size:14px;}
+.console .muar {position:relative;width:100%;border-bottom:1px solid #ddd;padding:4px 0px;font-weight:700;text-align:center}
+.console .item {position:relative;display:block;padding:2px 0}
+.console .item .count {font-weight:bold;color:#a88"}

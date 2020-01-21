@@ -1,0 +1,1 @@
+<div class="container_small">страница о проекте</div>
