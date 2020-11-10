@@ -26,7 +26,7 @@ abstract class E_Base { //базовый класс для событий
       if (E_Config_Mandatory::$data['log']) {// логирование отмены исполнения конструктора
         E_Logger::logger('passConstructor', $currentClassName, '');
       }
-      unset($this); // если класс уже списке статичных
+      //unset($this); // если класс уже списке статичных
 
     }
 
